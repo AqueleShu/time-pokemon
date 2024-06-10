@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Time-Pokemon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1>Meu time</h1>
+    </header>
+    <main class="personagens-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="./src/imagens/seta.png" alt="seta para voltar a imagem" />
+      </button>
+      <ul class="lista-personagens">
+        <li class="cartao selecionado fundo-1">
+          <h2 class="nome">#303 Mega Mawile</h2>
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/m-mawile.png"
+            alt="mega Mawile"
+          />
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Tem uma disposição extremamente cruel. Ela agarra a presa com seus
+              dois conjuntos de mandíbulas e as despedaça com força bruta.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-2">
+          <h2 class="nome">#197 Umbreon</h2>
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/umbreon.png"
+            alt="Umbreon"
+          />
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Quando exposto à luz da lua, os anéis do seu corpo brilham
+              fortemente e ganha um poder misterioso.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-3">
+          <h2 class="nome">#571 Zoroark (hisui)</h2>
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/zoroark-hisui.png"
+            alt="Zoroark"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Com seu pelo branco desgrenhado, parece a personificação da morte.
+              Indiferente à sua própria segurança, Zoroark ataca seus inimigos
+              com uma energia amarga tão intensa que dilacera seu próprio corpo.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-4">
+          <h2 class="nome">#461 Weavile</h2>
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/weavile.png"
+            alt="Weavile"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Alguns Weavile viajam em grupos de quatro ou cinco, deixando
+              sinais uns para os outros em árvores e pedras. Eles derrubam suas
+              presas com ataques coordenados.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-5">
+          <h2 class="nome">#260 Swampert</h2>
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/swanpert.png"
+            alt="Swampert"
+          />
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Os braços de Swampert são duros como pedra. Com um golpe, eles
+              podem derrotar seus inimigos. Este Pokémon faz seu ninho em belas
+              praias.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-6">
+          <h2 class="nome">#778 Mimikyu</h2>
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/mimikyu.png"
+            alt="Mimikyu"
+          />
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Este Pokémon vive em locais escuros, intocados pela luz solar.
+              Quando aparece diante dos humanos, ele se esconde sob um pano que
+              lembra um Pikachu.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="./src/imagens/seta.png" alt="seta para avançar a imagem" />
+      </button>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
