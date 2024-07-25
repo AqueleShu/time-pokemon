@@ -6,6 +6,15 @@ body {
     min-height: 100vh;
 }
 
+@font-face {
+    font-family: 'poke';
+    src: url(../fonts/Pokemon\ Solid.ttf),
+}
+
+h1 {
+    font-family: 'poke';
+}
+
 .cabecalho {
     text-align: center;
     padding: 60px 0;
